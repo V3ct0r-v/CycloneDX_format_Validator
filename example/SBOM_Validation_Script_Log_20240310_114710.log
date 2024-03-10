@@ -1,0 +1,51 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240310114710
+Username: 
+RunAs User: 
+Configuration Name: 
+Machine:  (Microsoft Windows NT 10.0.22621.0)
+Host Application: PowerShell.exe -noexit -command Set-Location -literalPath 'C:\Users\Test_Valid'
+Process ID: 34220
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Test_Valid\SBOM_Validation_Script_Log_20240310_114710.log
+
+
+    Directory: C:\Users\Test_Valid
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         3/10/2024  11:46 AM           2597 CDX_SBOM_Verification_Script.ps1
+-a----         10/4/2023   2:26 PM       66317423 cyclonedx-win-x64.exe
+-a----         3/10/2024  11:42 AM          24406 Example_Firmware_CDXFile.cdx.json
+-a----         3/10/2024  11:47 AM              0 SBOM_Validation_Script_Log_20240310_114710.log
+
+Cyclonedx-win-x64.exe version:
+0.25.0
+
+Example_Firmware_CDXFile.cdx
+
+Algorithm : SHA512
+Hash      : 9CAD174687C62FAA8345940486823CE61577DF7E43A89C3151BAFD36EA7F3834E3FA15CBFFC4BCD11992E5EE24EBEC5858482BB9D60
+            4595249462F1E001EEE37
+Path      : C:\Users\Test_Valid\Example_Firmware_CDXFile.cdx.json
+
+Validating JSON BOM...
+BOM validated successfully.
+Results in CDX_SBOM_Med_Device_Example-20240310_114710 :
+C:\Users\Test_Valid\Example_Firmware_CDXFile.cdx.json
+C:\Users\Test_Valid\SBOM_Validation_Script_Log_20240310_114710.log
+C:\Users\Test_Valid\CDX_SBOM_Verification_Script.ps1
+**********************
+Windows PowerShell transcript end
+End time: 20240310114717
+**********************
